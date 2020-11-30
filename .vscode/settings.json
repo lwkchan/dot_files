@@ -1,0 +1,53 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.multiCursorModifier": "alt",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "[javascript,typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "reason": "html"
+  },
+  "liveshare.featureSet": "insiders",
+  "editor.suggest.shareSuggestSelections": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "workbench.startupEditor": "welcomePage",
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "editor.minimap.enabled": false,
+  "workbench.editor.showTabs": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "task.autoDetect": "off",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "i18n-ally.keystyle": "flat",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.formatOnSave": true,
+  "cSpell.language": "en,en-GB",
+  "workbench.colorTheme": "Over Night Owl",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsserver.log": "verbose"
+}

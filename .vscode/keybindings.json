@@ -1,0 +1,75 @@
+// Place your key bindings in this file to overwrite the defaultsauto[]
+[
+  {
+    "key": "shift+cmd+l",
+    "command": "console.log.wrap.down.prefix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+w ctrl+alt+down",
+    "command": "-console.log.wrap.down.prefix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+] ctrl+]",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+[ ctrl+[",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "alt+cmd+r",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "alt+cmd+r",
+    "command": "-revealFileInOS",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+l",
+    "command": "console.log.wrap.down",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+w down",
+    "command": "-console.log.wrap.down",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "insert",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "insert",
+    "command": "-extension.vim_insert",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+cmd+w",
+    "command": "-workbench.action.toggleTabsVisibility"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "antfu.i18n-ally",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vsliveshare.vsliveshare",
+    "syler.sass-indented",
+    "silvenon.mdx",
+    "midnightsyntax.vscode-wrap-console-log",
+    "mrmlnc.vscode-scss",
+    "vitaliymaz.vscode-svg-previewer",
+    "lwkchan.make-a-type",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "tlent.jest-snapshot-language-support",
+    "wayou.vscode-todo-highlight"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}
