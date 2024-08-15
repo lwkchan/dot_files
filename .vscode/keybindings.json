@@ -1,22 +1,9 @@
-// Place your key bindings in this file to overwrite the defaultsauto[]
+// Place your key bindings in this file to overwrite the defaults
 [
-  {
-    "key": "shift+cmd+l",
-    "command": "console.log.wrap.down.prefix",
-    "when": "editorTextFocus"
-  },
   {
     "key": "ctrl+alt+w ctrl+alt+down",
     "command": "-console.log.wrap.down.prefix",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+] ctrl+]",
-    "command": "workbench.action.navigateForward"
-  },
-  {
-    "key": "ctrl+shift+-",
-    "command": "-workbench.action.navigateForward"
   },
   {
     "key": "ctrl+[ ctrl+[",
@@ -27,21 +14,48 @@
     "command": "-workbench.action.navigateBack"
   },
   {
-    "key": "cmd+t",
-    "command": "workbench.action.terminal.focus"
+    "key": "ctrl+] ctrl+]",
+    "command": "workbench.action.navigateForward"
   },
   {
-    "key": "alt+cmd+r",
-    "command": "workbench.files.action.showActiveFileInExplorer"
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward"
   },
   {
-    "key": "alt+cmd+r",
-    "command": "-revealFileInOS",
-    "when": "!editorFocus"
+    "key": "cmd+q cmd+q",
+    "command": "workbench.action.quit"
+  },
+  {
+    "key": "cmd+q",
+    "command": "-workbench.action.quit"
+  },
+  {
+    "key": "alt+cmd+t",
+    "command": "-workbench.action.closeOtherEditors"
   },
   {
     "key": "cmd+t",
     "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+v",
+    "command": "notionify.addLink",
+    "when": "onLanguage:markdown"
+  },
+  {
+    "key": "cmd+m",
+    "command": "-markdown.extension.editing.toggleMath",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
   },
   {
     "key": "cmd+l",
@@ -54,22 +68,40 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "insert",
-    "command": "editor.action.revealDefinition",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "key": "cmd+t cmd+a",
+    "command": "workbench.action.tasks.runTask"
   },
   {
-    "key": "f12",
-    "command": "-editor.action.revealDefinition",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "key": "alt+cmd+l",
+    "command": "turboConsoleLog.displayLogMessage",
+    "when": "editorFocus"
   },
   {
-    "key": "insert",
-    "command": "-extension.vim_insert",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
+    "key": "ctrl+alt+l",
+    "command": "-turboConsoleLog.displayLogMessage"
   },
   {
-    "key": "ctrl+cmd+w",
-    "command": "-workbench.action.toggleTabsVisibility"
+    "key": "shift+cmd+d",
+    "command": "turboConsoleLog.deleteAllLogMessages",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "-turboConsoleLog.deleteAllLogMessages"
+  },
+  {
+    "key": "cmd+t",
+    "command": "terminal.focus"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k f",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": { "snippet": "<>$1${TM_SELECTED_TEXT}</>" }
   }
 ]
