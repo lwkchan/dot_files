@@ -1,53 +1,110 @@
 {
-  "window.zoomLevel": 1,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.multiCursorModifier": "alt",
-  "workbench.editor.scrollToSwitchTabs": true,
-  "[javascript,typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[scss]": {
-    "editor.formatOnSave": true
-  },
+  "workbench.colorTheme": "Panda Syntax",
+  // "eslint.nodeEnv": "IDE",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "reason": "html"
+    "nunjucks": "html",
+    "mdx": "html",
+    "erb": "html"
   },
-  "liveshare.featureSet": "insiders",
-  "editor.suggest.shareSuggestSelections": true,
-  "typescript.disableAutomaticTypeAcquisition": true,
-  "workbench.startupEditor": "welcomePage",
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.formatOnSave": true
+  "showoffset.offsetType": "byte",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.quickSuggestions": {
+    "strings": true
   },
-  "editor.minimap.enabled": false,
-  "workbench.editor.showTabs": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+  "prettier.semi": true,
+  "workbench.iconTheme": "file-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "task.autoDetect": "off",
+  "[plaintext]": {
+    "editor.fontLigatures": true
+  },
+  "dart.debugSdkLibraries": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdx]": {
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false
+  },
+  "workbench.colorCustomizations": {
+    "editorUnnecessaryCode.border": "#FFFF00",
+    "editorError.border": "#0000"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "svelte.plugin.svelte.format.enable": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.wrapTabs": true,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "dart.flutterHotReloadOnSave": "allIfDirty",
+  "dart.closingLabels": false,
+  "redhat.telemetry.enabled": false,
+  "eslint.lintTask.enable": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.inheritEnv": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[nunjucks]": {
+    "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
+  },
+  "files.associations": {
+    "*.tidal": "haskell"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescriptreact]": {
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "tidalcycles.sounds.paths": ["/Users/laura.chan/personal/tidal/samples"],
+  "git.autofetch": true,
+  "svg.preview.mode": "svg",
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.fileListLayout": "tree",
+  "editor.stickyScroll.enabled": true,
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 100,
+  "githubPullRequests.terminalLinksHandler": "github",
+  "tailwindCSS.emmetCompletions": true,
+  "turboConsoleLog.quote": "`",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "i18n-ally.keystyle": "flat",
-  "diffEditor.ignoreTrimWhitespace": true,
+  "svelte.enable-ts-plugin": true,
   "editor.formatOnSave": true,
-  "cSpell.language": "en,en-GB",
-  "workbench.colorTheme": "Over Night Owl",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "cSpell.userWords": ["Typeahead"],
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
-  "typescript.tsserver.log": "verbose"
+  "tailwindCSS.experimental.classRegex": [
+    ["classNames\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "editor.accessibilitySupport": "off",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.mergeEditor": true,
+  "window.zoomLevel": 1,
+  "[svg]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
 }
