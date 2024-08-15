@@ -1,0 +1,27 @@
+[user]
+	name = Laura Chan
+	email = // work email
+
+[alias]
+	co = checkout
+	pf = push --force-with-lease
+	rbh = rebase -i origin/head
+	wip = !git add -A && git commit -m '[no ci] [skip ci] [ci skip]  wip' -n
+	wip-staged = git commit -m 'wip' -n
+	fom = fetch origin master 
+	rom = rebase origin/master
+[pull]
+	rebase = true
+[branch]
+	sort = committerdate
+[pager]
+	branch = false
+[rebase]
+	autosquash = true
+[push]
+	autoSetupRemote = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
